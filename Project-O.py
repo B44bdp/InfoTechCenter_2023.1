@@ -8,6 +8,8 @@ Our Welcome Screen Will Start Our program letting drivers know that the InfoTech
 #Import Libraries Here
 import time
 import sys
+import random
+from time import sleep
 timeToSleep = 2
 
 print("\nWelcome - InfoTech Center 2023\n")
@@ -28,12 +30,11 @@ while x != 20:
     if x == 20:
         print("\n\nOperating System Loaded - Retina Scanned - Access Granted")
 
-print("********************************")
-print("Gasoline Branch\n\n")
+print("\n***********************************************************************\n")
+print("Checking current gas levels\n\n")
+sleep(1)
 
-# Import Libraries Here
-import random
-from time import sleep
+
 
 # Function that lists Gas Stations, randomly choosing one, and return its value
 def gasLevelGauge():
